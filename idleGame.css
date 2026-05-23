@@ -1,0 +1,74 @@
+.centerTitle {
+    display: flex;
+    justify-content: center;
+}
+html, body {
+    margin: 0;
+}
+body {
+    background-color:rgb(2, 31, 68);
+    background-image: radial-gradient(rgba(19, 109, 226, 1) 30%, transparent 25%);
+    background-size: 30px 30px;
+}
+h1 {
+    color: antiquewhite;
+}
+.cookie {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(73, 44, 44);
+    color: rgb(73, 44, 44);
+    border-radius: 100%;
+    transition: .2s ease all;
+    cursor: pointer;
+}
+* {
+    /*border: 1px, solid, brown;*/
+}
+.cookieContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.cookie:active {
+    width: 350px;
+    height: 350px;
+}
+.upgradeBox {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(93, 93, 244);
+    height: 100vh;
+}
+button {
+    transition: .2s ease all;
+    border-radius: 15px;
+    height: 3rem;
+    cursor: pointer;
+}
+button:hover {
+    height: 3.4rem;
+    background-color: antiquewhite;
+}
+button:active {
+    height: 4rem;
+    background-color: antiquewhite;
+}
+.upgrades {
+    display: flex;
+    flex-direction: column;
+}
+.greyed {
+    background-color: rgba(45, 45, 45, 1);
+    cursor: default;
+}
+.greyed:hover {
+    background-color: rgba(45, 45, 45, 1);
+}
+.greyed:active {
+    background-color: rgba(45, 45, 45, 1);
+}
